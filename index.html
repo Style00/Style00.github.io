@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>格调's Repo</title>
+</head>
+<style>
+    body {
+        background: url("background.png");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #overlaybox {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.80);
+        position: fixed;
+        top: 240px;
+        left: 0;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    #header {
+        width: 300px;
+        height: 300px;
+        margin-top: -150px;
+        align-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #sexyasspfp {
+        background: url("toux.png");
+        width: 300px;
+        height: 300px;
+        background-size: contain;
+        filter: drop-shadow(10px 8px 6px #22222255);
+    }
+
+    div#repotitle {
+        text-align: center;
+        font-size: 100px;
+        font-family: "Helvetica Neue", Roboto, "San Francisco Display", Arial, Verdana, serif;
+        font-weight: 100;
+        margin-top: 150px;
+    }
+
+    div#repodesc {
+        text-align: center;
+        font-size: 45px;
+        font-family: "Helvetica Neue", Roboto, "San Francisco Display", Arial, Verdana, serif;
+        font-weight: 100;
+        margin-top: 20px;
+    }
+
+    div#clickto {
+        text-align: center;
+        font-size: 50px;
+        font-family: "Helvetica Neue", Roboto, "San Francisco Display", Arial, Verdana, serif;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+
+    div#icons {
+        display: flex;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 610px;
+        margin-top: 50px;
+    }
+
+    #icons div {
+        margin-right: auto;
+        filter: drop-shadow(4px 4px 4px #00000055);
+    }
+
+    #icons div:last-child {
+        margin-right: 0 !important;
+}
+
+    #cydiaicon {
+        background: url("cydia.png");
+        height: 150px;
+        width: 150px;
+        background-size: cover;
+    }
+
+    #zebraicon {
+        background: url("zebra.png");
+        height: 150px;
+        width: 150px;
+        background-size: cover;
+    }
+</style>
+<body>
+<div id="overlaybox">
+    <div id="header">
+        <div id="sexyasspfp">
+
+        </div>
+    </div>
+    <div id="repotitle">
+        Style‘s Repo
+    </div>
+    <div id="repodesc">
+        此源仅为个人使用插件，同步更新不会及时
+           <p>GitHub</p>
+          <p>威锋：格调00</p>
+    </div>
+    <div id="clickto">
+        点击图标添加源:
+    </div>
+      <div id="icons">
+        <div id="cydiaicon" onclick="location.href='cydia://url/https://cydia.saurik.com/api/share#?source=https://Style00.github.com/';">
+        </div>
+
+        <div id="zebraicon" onclick="location.href='zbra://sources/add/https://Style00.github.com/';">
+        </div>
+    </div>
+</div>
+</body>
+</html>
