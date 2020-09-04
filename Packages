@@ -274,6 +274,21 @@ Author: Mao
 Icon: null
 Name: 淘宝优惠券
 
+Package: com.25mao.doutu
+Version: 2.1-3
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.doutu_2.1-3_iphoneos-arm.deb
+Size: 258810
+MD5sum: 0abf4d289dbc2cc17d37f405ec32c708
+SHA1: a3ebfbb8286708d881110561affbf79273f55299
+SHA256: cf9db66fffd73c81eb49364f1788ff025e97a9dccec3627e1c0bc7d84e1f793b
+Section: 微信插件
+Priority: optional
+Author: Mao
+Name: 微信斗图助手
+
 Package: com.25mao.jdquan
 Version: 0.1-9
 Architecture: iphoneos-arm
@@ -288,6 +303,22 @@ Section: 优惠卷
 Priority: optional
 Author: Mao
 Name: 京东优惠券
+
+Package: com.25mao.miyou
+Version: 2.0-9
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.miyou_2.0-9_iphoneos-arm.deb
+Size: 2659624
+MD5sum: fb347bf25cf941c99b16ea26c1d8c4bf
+SHA1: c513eff69d21a91822c61504953fd7a8b147110b
+SHA256: 65da494aa7f68256f3e76c55a284b8cf31c22e63b151e78dba18f02afaee3bdb
+Section: 微信插件
+Priority: optional
+Author: Mao
+Icon: null
+Name: 微信助手25mao
 
 Package: com.25mao.youquan
 Version: 2.0.5
@@ -1038,6 +1069,22 @@ Author: R0wDrunner & MegaDev
 Depiction: https://r0wdrunner.github.io/repo/depictions/?p=com.megadev.r0wdrunner.situm
 Name: SITUM快捷网络搜索所选文本
 Sileodepiction: https://r0wdrunner.github.io/repo/depictions/?p=com.megadev.r0wdrunner.situm
+
+Package: com.megadev.sentinel
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: MegaDev
+Installed-Size: 736
+Depends: mobilesubstrate,ws.hbang.common,preferenceloader,com.opa334.ccsupport
+Filename: ./debs/sentinel.deb
+Size: 76580
+MD5sum: b3900bce77a19691d76c173d35795eb6
+SHA1: befea8bee580b7b9cc8cf42487606157bd51f2a4
+SHA256: 07030504662b840a85686da3d2fc413de4d6ecc972a3a44360e432df0ba231d4
+Section: Tweaks
+Description: Stop losing your jailbreak when your battery dies!
+Author: MegaDev
+Name: Sentinel低电量关机保护
 
 Package: com.michael.appleturboboost
 Version: 0.4.1
@@ -2406,6 +2453,22 @@ Description: 电脑登陆微信扫码后自动确定，下次电脑点击登陆�
 Author: Netskao
 Name: WeChatAutoLogin
 
+Package: netskao.xkfilza
+Version: 0.0.1-23+debug
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 104
+Depends: mobilesubstrate, com.tigisoftware.filza | com.tigisoftware.filza64bit
+Filename: ./debs/netskao.xkfilza_0.0.1-23+debug_iphoneos-arm.deb
+Size: 5814
+MD5sum: ca53140a868644d062ff0d7620b8f3e6
+SHA1: 4f057a4b3265a658268c9e62931f732db3f840f8
+SHA256: dbb50704453fc68c0988241a1563d7a61d0c0d205713d2461e481ec38f130fe0
+Section: Tweaks
+Description: Filza文件管理器伪装正版序列号破解！⚠️注意:此插件是配合官方源Filza进行使用，官方源:https://tigisoftware.com/cydia/
+Author: xia0z
+Name: Filza破解
+
 Package: netskao.xmysappnoads
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -3315,6 +3378,25 @@ Author: MegaDev
 Depiction: https://rejail.ru/depiction.php?file=batteryramp
 Name: BatteryRamp极简充电模式
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=batteryramp
+
+Package: ru.rj.crane
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1894
+Depends: firmware (>= 13.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/ru.rj.crane_1.0.1_iphoneos-arm.deb
+Size: 340296
+MD5sum: b123cfb46300dd1d45a3634cf68dde11
+SHA1: ab6e804212b7ae3d1bf50b49189e764d749c771d
+SHA256: 68219cce575847ad44637cacf0ffabe6232d30488731224dda0337f63411b810
+Section: Tweaks
+Description: Мульти-контейнеры (мульти-аккаунты) для приложений
+Author: opa334
+Depiction: https://rejail.ru/depiction.php?file=crane
+Name: Crane多开App账户
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=crane
 
 Package: ru.rj.harbor3
 Version: 1.1.1-1
