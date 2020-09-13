@@ -96,6 +96,22 @@ Description: 由微信公众号:苏兔小姐姐制作，威锋:格调00打包。
 Author: 微信公众号:苏兔
 Name: 字体大小90%(中文粉圆TW＋SANS英文)
 
+Package: am.ldid
+Version: 0.0.1-11
+Architecture: iphoneos-arm
+Maintainer: TIGI Software <info@tigisoftware.com>
+Installed-Size: 168
+Filename: ./debs/am.ldid_0.0.1-11.deb
+Size: 35922
+MD5sum: 04e86fca2e3ea6ad39d28f980503b3a9
+SHA1: eb9e3b6039c7a7bcd2c3f31fadb5466a802bccff
+SHA256: 38cd97505091488f98e1847edb3c8d713273578364ad517a89eb89b0bdea29fa
+Section: Utilities
+Description: pseudo-codesign Mach-O files for Apps Manager
+Tag: purpose::console
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: ldid for Apps Manager
+
 Package: applist
 Version: 1.5.16~beta1
 Architecture: iphoneos-arm
@@ -163,6 +179,21 @@ Priority: optional
 Author: Mao
 Name: 微信斗图助手
 
+Package: com.25mao.DouTu
+Version: 2.1-3
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.DouTu_2.1-3.deb
+Size: 259274
+MD5sum: 45741275f5d15663870a39451195c57b
+SHA1: 641aeb8a2db577df5a96b7805451b0214fc139f0
+SHA256: 41af45af45e71d2dd868ed5e64fd15d2f4636138ed737aab00453a390373d2f7
+Section: 微信插件
+Priority: optional
+Author: Mao
+Name: 微信斗图助手
+
 Package: com.25mao.JDQuan
 Version: 0.2-1
 Architecture: iphoneos-arm
@@ -173,6 +204,21 @@ Size: 120412
 MD5sum: ce83d9fcaaee6ace3b47247b622d9fd6
 SHA1: d696b7e6a3f0d660c1985c13456a6d313f01cd80
 SHA256: 582db7ba75a378ba4e5325a032c2c787b0725578ee161e6bd26021cdb2fb4383
+Section: 优惠卷
+Priority: optional
+Author: Mao
+Name: 京东优惠券
+
+Package: com.25mao.JDQuan
+Version: 0.2-2
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.JDQuan_0.2-2.deb
+Size: 185102
+MD5sum: b297e490fc8e26574ab35a35972e7319
+SHA1: 7ee42ca5bc2ad47aff2593abd270fed2c74b398e
+SHA256: 22ec5307fcfce52e24128ae05c76f30371338e6019aa9c0f0ebe568499c33d45
 Section: 优惠卷
 Priority: optional
 Author: Mao
@@ -242,6 +288,22 @@ Author: Mao
 Icon: null
 Name: 微信助手25mao
 
+Package: com.25mao.MiYou
+Version: 2.0-9
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.MiYou_2.0-9.deb
+Size: 2663076
+MD5sum: 817fcbb867b23a64055e743cf0addcb7
+SHA1: c1a68508a64dbbdd52bb1122f52b606434f749fc
+SHA256: 7e7100644ce5f4d3775bab0c9b6c21458f4a79e129f47f6d828ff12cf540616a
+Section: 微信插件
+Priority: optional
+Author: Mao
+Icon: null
+Name: 微信助手25mao
+
 Package: com.25mao.YouQuan
 Version: 2.0.7
 Architecture: iphoneos-arm
@@ -268,6 +330,22 @@ Size: 123178
 MD5sum: 4fef99122dbef21ed18410a90522cbd6
 SHA1: 73f90d880636242c66ffadb3b23e61566e13f264
 SHA256: 07beaad16858b48ced57d477bc495c9eb609ea81df533a5105a4828b36fa9dda
+Section: 优惠卷
+Priority: optional
+Author: Mao
+Icon: null
+Name: 淘宝优惠券
+
+Package: com.25mao.YouQuan
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.YouQuan_2.1.0.deb
+Size: 196772
+MD5sum: 30134495068ba2a1a41950c0209a1caf
+SHA1: ff183305c24accced49f95357f96f3cf9897efa3
+SHA256: 5a5b77f2c01468c9285d32c5dac0577183a71c19824041d88c39b089d1fca8a3
 Section: 优惠卷
 Priority: optional
 Author: Mao
@@ -1593,6 +1671,21 @@ Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for ins
 Author: TIGI Software
 Name: Apps管理器
 
+Package: com.tigisoftware.appdatamanager
+Version: 1.5.4-4
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 9156
+Filename: ./debs/com.tigisoftware.appdatamanager_1.5.4-4.deb
+Size: 3664658
+MD5sum: bede504c8e3817663ccce7681d8ee83b
+SHA1: 754dc64e11d00daeab012f6217abb6fd1907ec0a
+SHA256: f2681a8a2457eeb2b5d9f11444ad801ff2c632bd3c6d867f6821586cce2bd140
+Section: Utilities
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Author: TIGI Software
+Name: Apps管理器
+
 Package: com.tigisoftware.filza
 Version: 3.7.4-12
 Architecture: iphoneos-arm
@@ -1673,6 +1766,23 @@ Size: 13320052
 MD5sum: dccd84b0625ea6da144feae5dac066d5
 SHA1: 1e67dcbbf00fe80bb1b58746af9976b8c5e67f2a
 SHA256: e58de42c2ec0c76685ae52d197dd1fb08c74101822ea4eb2e4a47d09a61cf56a
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Name: Filza文件管理神器
+
+Package: com.tigisoftware.filza
+Version: 3.8.0-24
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 31968
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/com.tigisoftware.filza_3.8.0-24.deb
+Size: 12894934
+MD5sum: 4d1bb3cbed3e3fb5416e22761258b2e5
+SHA1: 6b7657d9ef04227c0c8a7f8926385aedf78ba8dc
+SHA256: 4ab034ce5847678c11be451b20d05cb504becbf4db24fe68aec5abb115fb3159
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software
@@ -1819,6 +1929,25 @@ Icon: file:///Library/PreferenceBundles/CallAssistSetting.bundle/CallAssistIcon@
 Name: 电话助手iOS13-正式完整版(兼容A12/A13)
 Sileodepiction: https://apt.htv123.com/update.html
 
+Package: com.xybp888.CallAssist13
+Version: 2.2.5
+Architecture: iphoneos-arm
+Maintainer: xybp888 <8657156@qq.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.xybp888.CallAssist13_2.2.5.deb
+Size: 1137608
+MD5sum: dc779ee2cc5d9c9304733cf380c99716
+SHA1: 091c20e7c1a1e06f21353dee6b5bbd44e1ef32c0
+SHA256: b545d16485c4bc07daf60ce0f1f604c81374cfc669c4864b567100a44530aeb4
+Section: 插件
+Priority: optional
+Description: 电话助手授权版本,集成T9,来去电归属地,黑名单,骚扰拦截等强大插件
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/197
+Icon: file:///Library/PreferenceBundles/CallAssistSetting.bundle/CallAssistIcon@3x.png
+Name: 电话助手iOS13-正式版
+Sileodepiction: https://apt.htv123.com/sileo/197
+
 Package: com.yourepo.ibreak.networkexalt
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -1861,6 +1990,26 @@ Size: 2400254
 MD5sum: a585705d210657364607239cb7dfd041
 SHA1: 097b1487794cb6ba0bf6451da6a8f8055cd5153a
 SHA256: 2eafb5b9b707b33e58bf1a589f0ffaeb177e75a7214099d21332f713dbff3c37
+Section: Tweaks
+Description: 已适配A12。各类常用app开启Pro权限，相关app商店下载即可。即将添加更多app。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/prozs.html
+Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
+Name: Pro助手lenglengyu
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
+
+Package: com.yourepo.lly.prozs
+Version: 3.5.6
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 4184
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
+Conflicts: com.yourepo.lenglengyu.prozs, com.lenglengyu.cutisanpro, com.lenglengyu.qmxspro, com.lenglengyu.recshotpro, com.lenglengyu.autoeditpro, com.lenglengyu.yunmeishe, com.lenglengyu.lianzidashi, com.lenglengyu.czjgs, com.lenglengyu.vpnpro, com.lenglengyu.gushihui, com.lenglengyu.yilin, com.lenglengyu.duzhepro, com.lenglengyu.kpoint, com.lenglengyu.baobaoquan, com.lenglengyu.ssshotpro, com.lenglengyu.tingshu, com.lenglengyu.mingsafe, com.lenglengyu.quvideo, com.lenglengyu.qsjtwpro, com.lenglengyu.ringtones
+Filename: ./debs/com.yourepo.lly.prozs_3.5.6.deb
+Size: 1501468
+MD5sum: a37fe28bdfa684dcd5ae1225cf9f83c3
+SHA1: 0e723dcc6bfd4c785dd7d881edb83f03ec61def5
+SHA256: 9ea74d9a466adfee7b43e2708a6b3120fd73bf452e09b44678c4a67fca6b5ffb
 Section: Tweaks
 Description: 已适配A12。各类常用app开启Pro权限，相关app商店下载即可。即将添加更多app。
 Author: lenglengyu
@@ -2253,6 +2402,27 @@ Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified 安装破解App
 
+Package: net.angelxwind.appsyncunified
+Version: 84.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 496
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified_84.0.deb
+Size: 42058
+MD5sum: 979c1973c503b9eb4e9e1151d97c4421
+SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
+SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified 安装破解App
+
 Package: net.pulandres.nfcwriterx
 Version: 3.2-16
 Architecture: iphoneos-arm
@@ -2321,6 +2491,22 @@ SHA1: 3966e5175470d1a026335ec2d7a3695fbb9d7f6e
 SHA256: b743c9696220d92f8978445bcb27de582dfa5da80481d7cd52bf557bd201b0e5
 Section: Tweaks
 Description: 抖音净化！支持10.x-11.x版本、去水印，显示状态栏，保存长视频，保存不可下载视频，保存风险视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告！注意:遇到不可以保存的视频双击视频保存即可，双指长按首页视频快速开启自动播放和纯净模式
+Author: Netskao
+Name: 抖音 净化
+
+Package: netskao.awemepurification
+Version: 1.6-6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1188
+Depends: mobilesubstrate
+Filename: ./debs/netskao.awemepurification_1.6-6.deb
+Size: 230046
+MD5sum: 1214ff2f221f04cdb4c4db703c190671
+SHA1: 806b2498ab76c0aada70c67c9b9242b239912d0a
+SHA256: 17d3e440c8139ddebcc91d5faf8966abbc1de0ad1bbe3f2c1f054ef290cfd55d
+Section: Tweaks
+Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！在抖音-设置界面可开启关闭甩一甩，后台模糊。「甩一甩手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
 Author: Netskao
 Name: 抖音 净化
 
@@ -2889,6 +3075,25 @@ Icon: file:///Library/PreferenceBundles/IconTweakSettings.bundle/icon@2x.png
 Name: IconTweak桌面图标增强【上划图标触发】
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=icontweak
 
+Package: ru.rejail.jellyfish
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 355
+Depends: mobilesubstrate, co.dynastic.ios.lib.flora, dev.ayden.ios.lib.sys.aurora (>= 1.0.2), firmware (>= 11.0)
+Conflicts: applebetas.ios.tweak.time11,com.junesiphone.lockpluspro,com.adriandev.jellyfishcustom,com.bengiannis.manta,hi.my.name.is.ubik.kalm
+Filename: ./debs/ru.rejail.jellyfish_1.5.1.deb
+Size: 44494
+MD5sum: cb8a452a75466afc9385c935b5b18d68
+SHA1: 611123d9d8c090426e919afd8dd9e48676f1e7f0
+SHA256: b18749ed4f59ec3c1935164d99a5c12f7ad1a4cbceb246a168510e54251e15a7
+Section: Tweaks
+Description: Редизайн экрана блокировки
+Author: Justin Proulx and Ayden Panhuyzen
+Depiction: https://rejail.ru/depiction.php?file=jellyfish
+Name: Jellyfish Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=jellyfish
+
 Package: ru.rejail.kalm
 Version: 1.3.4
 Architecture: iphoneos-arm
@@ -2920,6 +3125,26 @@ Size: 198316
 MD5sum: 22cdd9e8ca7e6a10dbee20fca28ff768
 SHA1: 5bc2beb24dc1c1fd9a5b5658a64ab1c4ddab92a9
 SHA256: 2ba3371580782a197900d0a9d479192928dca7e4826f9060fd6266a4c69ad575
+Section: Tweaks
+Description: Редизайн экрана блокировки
+Author: ubik <cydia@ubikstyl.es>
+Depiction: https://rejail.ru/depiction.php?file=kalm
+Icon: https://chariz.com/cdn/icon/kalm/icon@3x.png
+Name: Kalm简洁锁屏
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=kalm
+
+Package: ru.rejail.kalm
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1021
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.ioscreatix.twig, xyz.royalapps.jellyfish, com.bengiannis.manta, com.xcxiao.simplels2, com.lacertosusrepo.speculum, com.twickd.julius.april
+Filename: ./debs/ru.rejail.kalm_2.1.1.deb
+Size: 251590
+MD5sum: 4dd0d9d0427623d050dd6c47fd233273
+SHA1: c8dbe68e165f58dfea21b849da73e2c42f549a72
+SHA256: 86c4940e36292ee919b8e63711875da779d3cae04c28ac12a674e8ea41ff47d7
 Section: Tweaks
 Description: Редизайн экрана блокировки
 Author: ubik <cydia@ubikstyl.es>
@@ -2978,6 +3203,26 @@ Size: 1360808
 MD5sum: 89ee5fb16212cb3e1ac8eeaa6e3545fb
 SHA1: 53ac2ede6ef8b594429f1e5762cc0d0d98d0d28b
 SHA256: 2fc979d892ae201e01432fd4e6f5269b65817b2d1aedaed8b2a69b020c927f52
+Section: Tweaks
+Description: Редизайн пункта управления
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://rejail.ru/depiction.php?file=magmaevo
+Icon: https://chariz.com/cdn/icon/magma-evo/icon@3x.png
+Name: Magma Evo控制中心配色
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=magmaevo
+
+Package: ru.rejail.magmaevo
+Version: 2.0.4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2044
+Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader, com.opa334.ccsupport, com.spark.libsparkcolourpicker
+Conflicts: com.noisyflake.magma, com.noisyflake.magmapro
+Filename: ./debs/ru.rejail.magmaevo_2.0.4.deb
+Size: 1419152
+MD5sum: b3600167205298eeae643f172c569287
+SHA1: 5166e67e12567af906a9922470156761d4758bac
+SHA256: f19b5804c6c75845043e112adcc8e08d700f958f8d962d99a9830ac70f61586f
 Section: Tweaks
 Description: Редизайн пункта управления
 Author: NoisyFlake <support@noisyflake.com>
@@ -3054,6 +3299,24 @@ Size: 814444
 MD5sum: 0cede43e6b7870cce310de359b951fc4
 SHA1: 7b4fbaa4e5046e43d3e952a792ae0913e5caf280
 SHA256: f3d4a997cc307806e2a17cb5986d7e418f9c3c62bcd906c331bad6f6657cdc72
+Section: Tweaks
+Description: Редизайн пункта управления
+Author: LaughingQuoll
+Depiction: https://rejail.ru/depiction.php?file=prysm
+Name: Prysm重新设计控制中心
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=prysm
+
+Package: ru.rejail.prysm
+Version: 1.8
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2950
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Filename: ./debs/ru.rejail.prysm_1.8.deb
+Size: 814518
+MD5sum: b8324d2100d6a982ebcfae425f09737d
+SHA1: 12718c97e681186af3c121039a46424bef8cb8c9
+SHA256: 0ae0499b162f6831eba8a974a46c9de1f9506206fc4af6ab8a91bc761eada27d
 Section: Tweaks
 Description: Редизайн пункта управления
 Author: LaughingQuoll
@@ -3293,10 +3556,10 @@ Maintainer: ReJail <rejail@rejail.ru>
 Installed-Size: 1076
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.3), applist
 Filename: ./debs/ru.rj.arc_1.0.4k.deb
-Size: 590294
-MD5sum: 829195a050e73dc7c57be291494ae529
-SHA1: 53ef7afec9c69d82c2e49258a59515d8e03c7d56
-SHA256: 81708de6d46ddc2d644ac69ed680879fc805af2c4a18ac59dacfec6990627dae
+Size: 589820
+MD5sum: b302dcb829da4401a021a2ca9b0c8879
+SHA1: cf58515f58775b0028e147c8be75b51a7d2104a1
+SHA256: 3cd226d39ed8cd565e27bb05adf1307db9c41d04f157ac8693114dca154ac344
 Section: Tweaks
 Description: Быстрый доступ к наиболее часто используемым действиям
 Author: Muirey03
@@ -3391,6 +3654,25 @@ Size: 340296
 MD5sum: b123cfb46300dd1d45a3634cf68dde11
 SHA1: ab6e804212b7ae3d1bf50b49189e764d749c771d
 SHA256: 68219cce575847ad44637cacf0ffabe6232d30488731224dda0337f63411b810
+Section: Tweaks
+Description: Мульти-контейнеры (мульти-аккаунты) для приложений
+Author: opa334
+Depiction: https://rejail.ru/depiction.php?file=crane
+Name: Crane多开App账户
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=crane
+
+Package: ru.rj.crane
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1894
+Depends: firmware (>=13.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/ru.rj.crane_1.0.2.deb
+Size: 181484
+MD5sum: 98d407a4b65f9cabd3f733c86b2be824
+SHA1: 983ba7da07840e691bf9afaae71b2ac944f2d294
+SHA256: 829eb94cf42dda3e7b506b2ab85e28ae793d2549e26d4e6fb729acad57d9cca8
 Section: Tweaks
 Description: Мульти-контейнеры (мульти-аккаунты) для приложений
 Author: opa334
