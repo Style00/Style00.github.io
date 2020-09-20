@@ -1250,6 +1250,24 @@ Author: halo_michael <yc992147156@me.com>
 Name: Checkra1n固定G值
 Sponsor: halo_michael <yc992147156@me.com>
 
+Package: com.miro.fancyselection
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 2052
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), applist, com.creaturesurvive.libcscolorpicker
+Filename: ./debs/com.miro.fancyselection_1.0-3.deb
+Size: 348342
+MD5sum: 51026f9349b1a7233e9eb671019b6702
+SHA1: a6ca8b72345fdae7bd39c1c63707e8fa4bc3d99c
+SHA256: 5b55c9834b4615cd7581c1fc87100b0611a7e3dfd39a472780f9cdd0a9a3149a
+Section: Tweaks
+Description: Change the iOS text selection menu to something fancy :)
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios13.7
+Author: MiRO <tweaks_support@miro92.com>
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.fancyselection
+Name: FancySelection
+
 Package: com.muirey03.cr4shed
 Version: 4.1.3
 Architecture: iphoneos-arm
@@ -3673,6 +3691,25 @@ Size: 181484
 MD5sum: 98d407a4b65f9cabd3f733c86b2be824
 SHA1: 983ba7da07840e691bf9afaae71b2ac944f2d294
 SHA256: 829eb94cf42dda3e7b506b2ab85e28ae793d2549e26d4e6fb729acad57d9cca8
+Section: Tweaks
+Description: Мульти-контейнеры (мульти-аккаунты) для приложений
+Author: opa334
+Depiction: https://rejail.ru/depiction.php?file=crane
+Name: Crane多开App账户
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=crane
+
+Package: ru.rj.crane
+Version: 1.0.3-2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1734
+Depends: firmware (>=13.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/ru.rj.crane_1.0.3-2.deb
+Size: 169124
+MD5sum: e9b76ce3a296b090d7365b16b74cc721
+SHA1: a80cc3e65b9a07d5dbb1c7af4c69d4569f93c0f9
+SHA256: c181d700ae83f10247d32c65c2c272705177a7dc323fc31c35e582793c98011c
 Section: Tweaks
 Description: Мульти-контейнеры (мульти-аккаунты) для приложений
 Author: opa334
